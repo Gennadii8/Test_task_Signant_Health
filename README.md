@@ -8,10 +8,11 @@ I have uploaded new requirements.txt with bigger list of libraries versions, bec
 
 ## Instruction for start the app ##
 To run the app on Windows, there might be one more command, full instruction below:
-1) set FLASK_APP=demo_app
-2) $env:FLASK_APP = "demo_app"
-3) flask init-db
-4) flask run --host=127.0.0.1  --port=8080
+1) pip install -r requirements.txt
+2) set FLASK_APP=demo_app
+3) $env:FLASK_APP = "demo_app"
+4) flask init-db
+5) flask run --host=127.0.0.1  --port=8080
 
 (Still need python 3.7 and SQLite)
 

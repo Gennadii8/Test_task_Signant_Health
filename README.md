@@ -1,6 +1,8 @@
 # Test assignment Gennadii Matveev #
 
 ## Installation Instructions ##
+(There is a video of tests executions, so 
+you can just check the code and the video without setting up environment)
 
 I have uploaded new requirements.txt with bigger list of libraries versions, because there were some conflicts + I used some more libraries
 1) Jinja has removed Markup and escape in a recent version — 3.1.0 — released on March 24th, 2022. - downgrade to 3.0.3

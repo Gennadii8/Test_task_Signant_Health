@@ -29,5 +29,5 @@ class APITokenCreator(unittest.TestCase):
         self.assertEqual('FAILURE', status)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

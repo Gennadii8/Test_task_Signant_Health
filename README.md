@@ -54,7 +54,17 @@ I didn't run the tests separately using pabot, since there are only 4 of them he
 ## API testing ##
 
 I used unittest and Selenium. 
-For the launch, it is important that the default test runner is unittest.
+How to run tests:
+* You can run them through IDE (as I did in video)
+For the launch, it is important that the default test runner is unittest. 
+* Or you can open command line in Test_task direction and write:
+  1) pip install -r requirements.txt
+  2) python -m unittest C:/Users/Gena/Desktop/Test_task/automated_tests/api_tests_python/token_creation_tests.py
+  3) python -m unittest C:/Users/Gena/Desktop/Test_task/automated_tests/api_tests_python/review_users_tests.py 
+  4) python -m unittest C:/Users/Gena/Desktop/Test_task/automated_tests/api_tests_python/register_user_tests.py
+  5) python -m unittest C:/Users/Gena/Desktop/Test_task/automated_tests/api_tests_python/get_and_update_certain_user_tests.py
+  
+
 Here I have created 5 files:
 1) assisting_functions.py - auxiliary optimizing functions for tests.
 2) token_creation_tests.py - verification of token creation for an existing and non-existing user.
